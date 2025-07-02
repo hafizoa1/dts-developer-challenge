@@ -39,7 +39,7 @@ You can use any language you are comfortable with or our own stack:
 - **Document API endpoints**
 
 ## Submission Guidelines
-- Create repositories on GitHub and add add the links to your application
+- Create repositories on GitHub and add the links to your application
 - Include a helpful `README.md`!
 
 Happy coding!
