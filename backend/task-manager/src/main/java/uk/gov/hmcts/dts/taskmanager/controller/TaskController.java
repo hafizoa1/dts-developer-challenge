@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/tasks")
+@RequestMapping("/api/v1/tasks") //add in advice class
 @AllArgsConstructor
 @Valid
 @CrossOrigin(origins = "http://localhost:3000")
