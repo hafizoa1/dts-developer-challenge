@@ -29,7 +29,6 @@ public class TaskService {
     }
 
     public Task createTask(Task task) {
-        // You might want to validate here
         return taskRepository.save(task);
     }
 
@@ -41,9 +40,7 @@ public class TaskService {
     }
 
     public void deleteTask(UUID id) {
-        Task task = getTaskById(id); // Verify it exists first
+        Task task = getTaskById(id);
         taskRepository.delete(task);
     }
 }
-
-//maybe we create a dto just to be extra please

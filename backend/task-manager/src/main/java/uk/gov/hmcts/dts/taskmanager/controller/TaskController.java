@@ -19,6 +19,7 @@ import java.util.UUID;
 @RestController
 @RequestMapping("/api/tasks")
 @AllArgsConstructor
+@Valid
 @CrossOrigin(origins = "http://localhost:3000")
 @Tag(name = "Task Management", description = "API for managing caseworker tasks")
 public class TaskController {
