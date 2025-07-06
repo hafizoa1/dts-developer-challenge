@@ -53,6 +53,7 @@ const Modal: React.FC<ModalProps> = ({
       <div 
         className="fixed inset-0 bg-black bg-opacity-50 transition-opacity"
         onClick={onClose}
+        data-testid="modal-backdrop"
       />
       
       {/* Modal */}
