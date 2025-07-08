@@ -20,13 +20,16 @@ This application provides a complete solution for caseworkers to:
 
 ### One-Command Setup
 ```bash
-# 1. cd to backend and run docker
+# 1. TO FOLOW THS GUIDE YOU SHOULD START AT THE ROOT OF THE FOLDER
+ cd \..\dts-developer-challenge
+
+# 2. cd to backend and run docker - the docker service runs the database and is only in the backend 
  cd backend/task-manager && docker-compose up -d
 
-# 2. Start the backend (new terminal)
+# 3. Start the backend (new terminal)
  && ./gradlew bootRun
 
-# 3. Start the frontend (new terminal)
+# 4. Start the frontend (new terminal)
 cd frontend/task-manager-ui && npm install && npm start
 ```
 
@@ -210,11 +213,6 @@ Visit http://localhost:8080/swagger-ui.html for interactive API documentation.
 docker-compose up -d
 ```
 
-### Full Application (Optional)
-```bash
-# Build and run entire stack
-docker-compose -f docker-compose.full.yml up --build
-```
 
 ## 🔒 Security & Validation
 
@@ -259,4 +257,4 @@ This project is developed for HMCTS technical assessment purposes.
 
 ---
 
-**Built with ❤️ for HMCTS Caseworkers**
+**Built with ❤️ for HMCTS Caseworkers and my interview**
