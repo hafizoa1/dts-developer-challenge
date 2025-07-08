@@ -21,8 +21,8 @@ echo "⚡ Starting backend application..."
 ./gradlew bootRun &
 
 echo ""
-echo "⏳ Waiting for backend to initialize (30 seconds)..."
-sleep 30
+echo "⏳ Waiting for backend to initialize (60 seconds)..."
+sleep 60
 
 echo ""
 echo "🎨 Installing frontend dependencies and starting..."

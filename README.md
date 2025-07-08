@@ -20,8 +20,8 @@ This application provides a complete solution for caseworkers to:
 
 ### One-Command Setup
 ```bash
-# 1. TO FOLOW THS GUIDE YOU SHOULD START AT THE ROOT OF THE FOLDER
- cd \..\dts-developer-challenge
+# 1. TO FOLLOW THS GUIDE YOU SHOULD START AT THE ROOT OF THE FOLDER. (or you could run the start.sh bash script)
+ cd /../dts-developer-challenge
 
 # 2. cd to backend and run docker - the docker service runs the database and is only in the backend 
  cd backend/task-manager && docker-compose up -d
